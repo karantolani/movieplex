@@ -1,0 +1,56 @@
+.onboarding-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.onboarding-container h1 {
+    font-size: 38px;
+    font-weight: 800;
+    text-align: center;
+}
+
+button {
+    background-color: #db0000;
+    color: white;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 28px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: opacity 200ms;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+.onboarding-img {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    opacity: .15;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 600px) {
+    .onboarding-container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .onboarding-img {
+        object-fit: cover;
+    }
+
+    .onboarding-container h1 {
+        font-size: 26px;
+    }
+
+}

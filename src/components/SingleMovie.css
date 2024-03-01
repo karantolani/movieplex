@@ -1,0 +1,30 @@
+.movie {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.movie-img {
+    height: 384px;
+    max-width: 100%;
+    border-radius: .5rem;
+    transition: transform 500ms;
+}
+
+.movie-img:hover {
+    transform: scale(1.05);
+}
+
+.movie-title {
+    font-size: 20px;
+    margin-top: 8px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.movie-year {
+    margin-top: 4px;
+}

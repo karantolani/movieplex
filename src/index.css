@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #000;
+    color: white;
+}
+
+#root {
+    min-height: 100vh;
+}
+
+@media screen and (max-width: 425px) {
+    body {
+        -webkit-tap-highlight-color: transparent;
+    }
+}

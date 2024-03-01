@@ -1,0 +1,35 @@
+.empty-state {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.empty-state h2 {
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+}
+
+.empty-state img {
+    width: 384px;
+    height: 384px;
+}
+
+@media (max-width: 600px) {
+    .empty-state {
+        padding: 0 20px;
+    }
+
+    .empty-state h2 {
+        font-size: 18px;
+    }
+
+    .empty-state img {
+        width: 200px;
+        height: 200px;
+    }
+
+}
