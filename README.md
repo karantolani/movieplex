@@ -31,7 +31,7 @@ cd movieplex
 ```sh
 REACT_APP_OMDB_API_KEY=your-api-key-here
 ```
-Replace your-api-key-here with your actual OMDB API key.
+Replace `your-api-key-here` with your actual OMDB API key.
 
 4. Install dependencies:
 
